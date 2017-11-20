@@ -1,6 +1,3 @@
-$color_1: white;
-$color_2: #142029;
-$background_color_1: $navbar-color;
 
 body {
   padding-top: 75px;
@@ -46,7 +43,7 @@ td {
 }
 th {
   padding: .625em;
-  background-color: $background_color_1;
+  background-color: $navbar-color;
   color: $color_1;
   padding: 1.35em .68rem;
   font-size: 1.0em;
