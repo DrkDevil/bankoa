@@ -6,7 +6,7 @@ GIT, NPM, NODE.JS
 ### Get Started
 Within your terminal run the command:
 ```
-$ git clone https://github.com/DrkDevil/CleanApp.git
+$ git clone https://github.com/DrkDevil/bankoa.git
 ```
 After you have downloaded, or cloned the repo you will need to gather the needed node moduales, and dependecies to run your new application and development enviormnet.
 
