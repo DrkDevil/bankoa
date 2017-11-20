@@ -122,19 +122,9 @@ th {
 	}
 }
 @media only screen and (max-width : 768px) {
-	.fruit {
-		background: url('../../img/svg/fruit.svg');
-	}
-	.beverage {
-		background: url(../../img/svg/beverage.svg);
-	}
-	.pasta {
-		background: url(../../img/svg/pasta.svg);
-	}
-	.dessert {
-		background: url(../../img/svg/dessert.svg);
-	}
-	.dairy {
-		background: url(../../img/svg/dairy.svg);
-	}
+  .fruit { background: url('../../img/svg/fruit.svg'); }
+  .beverage {	background: url(../../img/svg/beverage.svg); }
+  .pasta { background: url(../../img/svg/pasta.svg); }
+  .dessert { background: url(../../img/svg/dessert.svg); }
+  .dairy { background: url(../../img/svg/dairy.svg); }
 }
