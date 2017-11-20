@@ -1,0 +1,43 @@
+// Responsive Images
+.center-content { text-align: center;}
+.flexCon { display: flex; justify-content: center; align-items: center; }
+.flexConFull { width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center; }
+.fixed { position: fixed !important; }
+.fixed-top { position: fixed !important; top:0; }
+.fixed-bottom { position: fixed !important; bottom:0;}
+.flt-left { float: left !important; }
+.flt-right { float: right !important; }
+.responsive-img { max-width: 100%; height: auto; }
+.show { visibility: visible !important; }
+.hide { visibility: hidden; }
+
+// Hidden Elements 
+// Hidden elements work on a max-width and down.
+// This allows for easier control, on when your element will disapear.
+// We also use display instead of visibility so the element is actually removed from the DOM
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+  .hidden-sm { display: none !important; }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .hidden-md { display: none !important; }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .hidden-md { display: none !important; }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) { 
+  .hidden-lg { display: none !important; }
+  	
+}
+
+
+// Helpful Components Styles
+
+.cell { border: 1px solid #fff; }
+.headline { border-bottom: 1px solid #fff; }

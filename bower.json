@@ -1,0 +1,16 @@
+{
+  "name": "Bank of America - Coding Project",
+  "authors": [ { "name": "Brian Orr (drkdevil)" } ], 
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://bonsaiapp.digitalreligion.net",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/components"
+  ],
+  "dependencies": {
+	"gulp": "^3.8.5",
+	"jquery": "^3.1.1"
+  }
+}

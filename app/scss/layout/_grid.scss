@@ -1,0 +1,73 @@
+/* ----- Bonsai UI Grid System ----- */
+
+/* Removes padding behaviour on widths */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Grid Container */
+.grid, .grid-fw {
+  padding:  0 $gridPadding;
+  margin: 0 auto;
+}
+
+/* Row Clearfix */
+.row {
+  &:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+  }
+}
+
+/* Column attribute selector */
+[class*='col-'] {
+  position: relative;
+  float: left;
+  display: block;
+  margin-bottom: $colSpacing;
+  width: 100%;
+  padding-right: $gutters;
+  min-height: 1px;
+}
+
+/* Floats last ".col-" to the right */
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+/* Removes floats on mobile phones */
+@media (max-width: 419px) {
+  [class*='col-'] {
+    padding-right: 0;
+  }	
+}
+
+@each $mqSlug, $size in $breakpoints {
+  @media (min-width: #{$size}) {
+    .grid {
+      width: -webkit-calc( #{$size} - 60px);
+	  width:    -moz-calc( #{$size} - 60px);
+	  width:         calc( #{$size} - 60px);
+    }	  
+  }
+}
+
+//Columns, Columns Offsets, and Thier Breakpoints
+@each $mqSlug, $size in $breakpoints {
+  @media (min-width: #{$size}) {
+    @for $colNumb from 1 through $gridsize {
+      .col-#{$colNumb}#{$mqSlug} {
+        width: $colNumb / $gridsize * 100%;
+      }
+      .offset-#{$colNumb}#{$mqSlug} {
+        margin-left: $colNumb / $gridsize * 100%;
+      }
+    }
+  }
+}

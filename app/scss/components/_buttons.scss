@@ -1,0 +1,6 @@
+// Main Page Buttons
+[class*='btn-'] { font-size: $btn-font-size; font-family: $secondary-font; border-radius: $btn-border-radius; margin-bottom: $btn-margin-bottom; padding: $btn-padding;	cursor: pointer; }
+.btn-outlined { border: $btn-outlined-border; background: $btn-outlined-background;	font-size: $btn-font-size; font-family: $secondary-font; }
+.btn-outlined:hover { color:$btn-outlined-color-hover; border: $btn-outlined-border-hover; background: $btn-outlined-background-hover; @include easeIn; }
+.btn-solid { color:$btn-solid-color-hover; border: $btn-solid-border; background: $btn-solid-background; }
+.btn-solid:hover { border: $btn-solid-border-hover; background: $btn-solid-background-hover; @include easeIn; }

@@ -1,0 +1,76 @@
+// ----- Base Variables -----------------------------------------------
+
+// Base Elements for all pages Body tag
+$body-color: #fff;
+$body-line-height: 1;
+
+// Fonts
+$primary-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+$secondary-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+
+// ----- Component Variables ------------------------------------------
+
+// Navbar
+$navbar-font-size-sm: 0.75rem;
+$navbar-font-size-md: 0.875rem;
+$navbar-color: #142029;
+$navbar-padding: .5rem 1rem;
+$navbar-link-spacing: 8px 0;
+$navbar-line-height: 1.875rem;
+$navbar-text-color: rgba(255, 255, 255, 0.75);
+$navbar-text-hover-color: #fff;
+
+// Navbar Buttons
+// Outlined Buttons
+$navbar-button-outline-color: #458047;
+$navbar-button-outline-color-hover: #4eaf45;
+// Solid Buttons
+$navbar-button-text-color:#000;
+$navbar-button-text-color-hover:#fff;
+$navbar-button-color:#271010;
+$navbar-button-color-hover:#458047;
+
+// Page Buttons
+// Outlined Buttons
+$button-outline-text-color: #000;
+$button-outline-text-color-hover: #fff;
+$button-outline-color: #848483;
+$button-outline-color-hover: #271010;
+// Solid Buttons
+$navbar-button-text-color:#000;
+$navbar-button-text-color-hover:#fff;
+$sidebar-button-text-color:#000;
+$sidebar-button-text-color-hover:#fff;
+$button-color:#271010;
+$button-color-hover:#142029;
+
+// Buttons
+$btn-font-size: 1.0rem;
+$btn-padding: 0.9375rem;
+$btn-border-radius: 3px;
+$btn-margin-bottom: 10px;
+
+// Outlined Buttons
+$btn-outlined-border:1px solid #142029;  
+$btn-outlined-background: transparent;
+
+// Outlined Button Hovers
+$btn-outlined-color-hover:#fff;
+$btn-outlined-border-hover: 1px solid #142029;
+$btn-outlined-background-hover: #a33636; 
+
+// Solid Buttons
+$btn-solid-border: 1px solid #142029;  
+$btn-solid-background: #142029;
+
+// Solid Button Hovers
+$btn-solid-color-hover:#cecece;
+$btn-solid-border-hover: 1px solid #4a0909;
+$btn-solid-background-hover: #a33636; 
+
+// Grid System  
+$gutters: 15px;
+$gridPadding: 15px;
+$colSpacing: 5px;
+$gridsize: 12; // Grid Sizes must be divisible by two.
+$breakpoints: ("xs": 576px, "sm": 768px, "md": 992px, "lg": 1200px);

@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": 1,  // Enable Browser Environment.
+    "node": 1      // Uncomment to Enable Node.js Environment.
+	},
+	"globals": {
+	  // Place settings for globals here
+	  "angular": 1
+	},
+	"extends": "eslint:recommended",
+	"rules": {
+	  "indent": ["error", 2],
+      "linebreak-style": ["error", "windows"], // Change to "unix" if not using windows as a dev environment.
+	  "semi": ["error", "always"],
+	  "quotes": [2, "single", "avoid-escape"],
+	  "eqeqeq": 0,
+	  "brace-style": [2, "stroustrup"],
+	  "eol-last": 0,
+	  "no-nested-ternary": 1,
+	  "padded-blocks": [1, "never"],
+	  "space-before-function-paren": [1, "never"],
+	  "space-before-blocks": [1, "always"],
+	  "no-unused-vars": ["error", { "vars": "all", "args": "none", "ignoreRestSiblings": false }]
+	},
+	"plugins": [
+	  //you can put ESLint plugins here.
+	]
+}  
