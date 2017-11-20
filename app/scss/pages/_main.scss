@@ -68,38 +68,30 @@ th {
 .dessert { background: url(../../img/svg/dessert.svg); }
 .dairy { background: url(../../img/svg/dairy.svg);}
 @media screen and (max-width: 768px) {
-	h1 {
-	  margin: 40px 0;
-	}
-	body {
-	  padding-top: 95px;
-	}
-	table {
-	  border: 0;
-	}
-	tr {
-	  border-bottom: 3px solid #142029;
-	  display: block;
-	   margin-bottom: .625em;
-      margin: 10px 10px 45px 10px;
-	   &:last-of-type {
-	  margin-bottom: 45px;
+  h1 { margin: 40px 0; }
+  body { padding-top: 95px; }
+  table { border: 0; }
+  tr {
+	border-bottom: 3px solid #142029;
+	display: block;
+	margin-bottom: .625em;
+    margin: 10px 10px 45px 10px;
+	  &:last-of-type {
+	    margin-bottom: 45px;
 	  }
 	}
-	td {
-	  border-bottom: 1px solid #ddd;
-	  display: block;
-	  font-size: .9em;
-	  text-align: right;
-		&:before {
-	    content: attr(data-label);
-		  float: left;
-		  font-weight: bold;
-		  text-transform: uppercase;
-		}
-		&:last-child {
-		  border-bottom: 0;
-	  }
+  td {
+    border-bottom: 1px solid #ddd;
+	display: block;
+	font-size: .9em;
+	text-align: right;
+	  &:before {
+	  content: attr(data-label);
+	  float: left;
+	  font-weight: bold;
+	  text-transform: uppercase;
+	}
+	  &:last-child { border-bottom: 0; }
 	}
 	thead {
 	  border: 0;
